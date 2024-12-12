@@ -19,7 +19,8 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans" style="background-image: url('{{ asset('https://ucarecdn.com/9e2954ff-9fc8-4a02-a25a-562f469ec51a/GambarWhatsApp20241208pukul015045_5ac4e5da.jpg') }}'); background-size: 110%; background-position: center;">
+<body class="font-sans" style="background-image: url('{{ asset('https://ucarecdn.com/b11705e3-b2e7-4cfe-b349-524ce6490a50/wallpapersdencom_sasukeuchihanarutoanime_2048x1152.jpg') }}'); background-size: cover; background-position: center; background-attachment: fixed;">
+
   
         @include('layouts.navigation')
 
@@ -30,7 +31,7 @@
                 <div class="max-w-7xl mx-auto py-6 px- sm:px-9 lg:px-8">
                     {{ $header }}
                 </div>
-            </header>
+            </header> 
         @endisset
 
         <!-- Page Content -->
