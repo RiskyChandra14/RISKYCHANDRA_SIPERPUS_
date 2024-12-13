@@ -7,7 +7,7 @@ class PostController extends Controller
     public function index()
     {
         // Ambil data dengan pagination, 10 item per halaman
-        $posts = Post::paginate(10);
+        $posts = Post::paginate(5);
 
         // Kirim data ke view
         return view('posts.index', compact('posts'));
